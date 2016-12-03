@@ -1,0 +1,14 @@
+Part 1
+1. Used notepad++ to convert file from space delimited to comma delimited
+2. Text import wizard to put values in columns
+3. Used IF equations to determine for each combination if it made a valid triangle
+4. Used AND to determine if all 3 combos were possible
+5. At very bottom used CountIF to count all 'True'
+
+Part 2
+1. Created IF equation in a group of 3 vertically for each of the 3 columns.
+2. Created columns to do the AND logic
+3. Drag copied the rows of 3 logic to the bottom.
+4. Used CountIF to count all valid combos.
+
+Total time less than 10 minutes.
