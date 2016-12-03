@@ -1,0 +1,8 @@
+Steps to help understand the processing
+1. Imported text into excel using comma delimited formula
+2. Row 2 is the first character to determine direction.
+3. Row 3 is the value to move
+4. Rows 4-7 are the current tally of how many N, E, S, W you have  moved
+5. Row 7 indicated what direction you end up facing using the VLookup table from sheet 2 and logic of whether to turn R or L.
+6. Drag copy values to the end
+7. Add up values by ABS(N-S) + ABS(E-W)
